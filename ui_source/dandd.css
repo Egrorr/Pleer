@@ -1,0 +1,37 @@
+QTabWidget::tab-bar {
+    border: 1px solid gray;
+}
+QTabBar::tab {
+    background-color: #372747;
+    color: white;
+    padding: 10px;
+}
+#listWidget_3, #listWidget_4 {
+    background-color: rgba(0, 0, 0, 0);
+}
+#listWidget_3::item {
+    border: 1px solid #423357;
+    color: white;
+}
+QTabBar::tab:selected {
+    background: #473862;
+}
+QTabWidget::pane { 
+    border: none;
+}
+#updatefilebtn, #delwarningdialogbtn, #savedirectchangebtn, #pushButton, #pushButton_2 {
+    background-color: #423357;
+    font: bold 13px;
+    color: white;
+}
+#spinBox, #lineEdit {
+    background-color: #423357;
+    font: bold 18px;
+    color: white;
+    selection-background-color: #625377; 
+}
+#pushButton_10 {
+    background-color: #423357;
+    font: bold 13px;
+    color: white;
+}

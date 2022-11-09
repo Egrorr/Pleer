@@ -1,0 +1,113 @@
+#listWidget_2, #listWidget {
+    background-color: #372747;
+}
+QRadioButton {
+    color: white;
+    font: bold 13px;
+}
+#verticalGroupBox {
+    border-style: outset;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color: #372747;
+}
+#pushButton_4 {
+    background-color: #423357;
+    font: bold 13px;
+    color: white;
+}
+#pushButton_3, #pushButton_2, #pushButton {
+    background-color: rgba(0, 0, 0, 0);
+    font: bold 13px;
+    color: white;
+    outline: none;
+}
+#pushButton_3:pressed {
+    image: url('decor_source/nexttrackact.png');
+}
+#pushButton_2:pressed {
+    image: url('decor_source/previoustrackact.png');
+}
+#listWidget::item:selected, #listWidget_2::item:selected {
+    background-color: #625377;
+    color: white;
+}
+#horizontalSlider::groove:horizontal {
+    border-radius: 1px;       
+    height: 7px;              
+    margin: -1px 0;           
+}
+#horizontalSlider::handle:horizontal {
+    background-color: #660066;
+    border: 2px solid #505050;
+    height: 14px;     
+    width: 12px;
+    margin: -4px 0;     
+    border-radius: 7px  ;
+    padding: -4px 0px;  
+}
+#horizontalSlider::add-page:horizontal {
+    background: #505050;
+}
+#horizontalSlider::sub-page:horizontal {
+    background: #660066;
+}
+#verticalSlider::handle:vertical {
+    background-color: #660066;
+    min-height: 30px;
+    width: 24px;
+}
+QPushButton {
+    color: white;
+    background: #423357;
+}
+#verticalSlider::add-page:vertical {
+    background: #524367;
+}
+#verticalSlider::sub-page:vertical {
+    background: rgba(66, 66, 66, 0);
+}
+#changingdirbtn, #updatefilebtn, #sysedbtn {
+    background-color: #423357;
+    color: white;
+}
+#label {
+    color: white;
+}
+#lineEdit {
+    background-color: #423357;
+    color: white;
+}
+QScrollBar:vertical {
+    border: 2px solid grey;
+    background: #423357;
+    width: 15px;
+    margin: 22px 0 22px 0;
+}
+QScrollBar::handle:vertical {
+    background: #871234;
+    min-height: 30px;
+}
+QScrollBar::add-line:vertical {
+    border: 2px solid grey;
+    background: #423357;
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+    border: 2px solid grey;
+    background: #423357;
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    border: 2px solid grey;
+    width: 2px;
+    height: 2px;
+    background: #423357;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}

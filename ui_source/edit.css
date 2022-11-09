@@ -1,0 +1,22 @@
+#pushButton_7, #lineEdit, #pushButton, #pushButton_9 {
+    background-color: #423357;
+    font: bold 13px;
+    color: white;
+}
+QTabWidget::tab-bar {
+    border: 1px solid gray;
+}
+QTabBar::tab {
+    background-color: #372747;
+    color: white;
+    padding: 10px;
+}
+QListWidget {
+    background-color: rgba(0, 0, 0, 0);
+}
+QTabBar::tab:selected {
+    background: #473862;
+}
+QTabWidget::pane { 
+    border: none;
+}
